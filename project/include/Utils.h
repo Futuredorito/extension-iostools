@@ -2,10 +2,10 @@
 #define EXTENSION_IOSTOOLS_H
 
 
-namespace extension_iostools {
+namespace Tools {
 	
 	
-	int SampleMethod(int inputValue);
+	float setBrightness(float inputValue);
 	
 	
 }
