@@ -1,3 +1,7 @@
+#if !defined(__APPLE__) && !defined(__IOS__)
+#error "extension-iostools is only supported in iOS/iPhoneSim."
+#endif
+
 #ifndef STATIC_LINK
 #define IMPLEMENT_API
 #endif
