@@ -1,4 +1,4 @@
-#if !defined(__APPLE__) && !defined(__IOS__)
+#if !defined(__APPLE__) && !defined(__IOS__) && !defined(TARGET_OS_SIMULATOR)
 #error "extension-iostools is only supported in iOS/iPhoneSim."
 #endif
 
