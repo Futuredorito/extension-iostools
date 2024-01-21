@@ -10,5 +10,10 @@ class IosTools {
 		return setbrightness(inputValue);	
 	}
 
-	private static var setbrightness = CFFI.load("extension_iostools", "extension_iostools_set_brightness", 1);	
+	public static function isBoldEnabled():Bool {
+		return isBolded();
+	}
+
+	public static var isBolded = CFFI.load("extension-iostools", "extension_iostools_isBold", 0);	
+	private static var setbrightness = CFFI.load("extension-iostools", "extension_iostools_set_brightness", 1);	
 }

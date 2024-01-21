@@ -8,5 +8,9 @@
 namespace Tools {
 	float setBrightness(float inputValue) {
         [[UIScreen mainScreen] setBrightness: inputValue];
-	}	
+	}
+
+    bool isBoldTextEnabled() {
+        return UIAccessibilityIsBoldTextEnabled;
+    }
 }
