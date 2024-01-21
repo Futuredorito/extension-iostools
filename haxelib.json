@@ -3,7 +3,7 @@
   "url": "https://github.com/Futuredorito/extension-iostools",
   "license": "MIT",
   "tags": ["ios"],
-  "description": "A Haxe/Lime extension that add's some functions from OBJC to Haxe.",
+  "description": "A Haxe/Lime extension that add's some functions from iOS to Haxe using OBJC.",
   "version": "1.0.0",
   "releasenote": "Initial Release",
   "contributors": ["Futuredorito"],
