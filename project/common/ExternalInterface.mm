@@ -2,10 +2,6 @@
 #define IMPLEMENT_API
 #endif
 
-#if defined(HX_WINDOWS) || defined(HX_MACOS) || defined(HX_LINUX)
-#define NEKO_COMPATIBLE
-#endif
-
 #include <hx/CFFI.h>
 #include "Utils.h"
 
@@ -26,7 +22,7 @@ static value extension_iostools_set_dimming (value inputValue) {
 DEFINE_PRIM (extension_iostools_set_dimming, 1);
 
 extern "C" void extension_iostools_main () {    
-    val_int(0); // Fix Neko init
+    val_int(0);
 }
 DEFINE_ENTRY_POINT (extension_iostools_main);
 
