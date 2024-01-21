@@ -1,0 +1,11 @@
+### General
+.DS_Store
+__MACOSX
+.DS_Store?
+__MACOSX?
+
+### Building
+project/obj
+.vscode/*
+.history
+.ionide

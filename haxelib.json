@@ -1,13 +1,14 @@
 {
-  "name": "extension_iostools",
-  "url": "",
+  "name": "extension-iostools",
+  "url": "https://github.com/Futuredorito/extension-iostools",
   "license": "MIT",
-  "tags": [],
-  "description": "",
+  "tags": ["ios"],
+  "description": "A Haxe/Lime extension that add's some functions from OBJC to Haxe.",
   "version": "1.0.0",
-  "releasenote": "",
-  "contributors": [""],
-  "dependencies": {
-
+  "releasenote": "Initial Release",
+  "contributors": ["Futuredorito"],
+  "dependencies":{
+	"hxcpp":"",
+	"lime":""
   }
 }
