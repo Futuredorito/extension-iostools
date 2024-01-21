@@ -18,13 +18,6 @@ static value extension_iostools_set_brightness (value inputValue) {
 }
 DEFINE_PRIM (extension_iostools_set_brightness, 1);
 
-static value extension_iostools_set_dimming (value inputValue) {
-    bool returnValue = setDimming(val_bool(inputValue));
-    return alloc_int(returnValue);
-    
-}
-DEFINE_PRIM (extension_iostools_set_dimming, 1);
-
 extern "C" void extension_iostools_main () {    
     val_int(0);
 }
